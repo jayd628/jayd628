@@ -1,0 +1,37 @@
+//Assignment 2
+// @author: Abhijay Dutta
+//Section 1
+#include <iostream>
+using namespace std;
+int main() {
+
+  int x;
+  int y;
+  int z;
+
+  cout<< "Enter three integer values:"<< endl;
+  cout<< "x= ";
+  cin >> x;
+  cout<<endl;
+  cout<< "y= ";
+  cin >> y;
+  cout<<endl;
+  cout<< "z= ";
+  cin >> z;
+  if(x<=y && y<=z) {
+    cout << "ascending" << endl;
+  }
+  else {
+      cout << "NOT ascending" << endl;
+  }
+
+  if(x>=y && y>=z) {
+      cout<< "descending"<<endl;
+      cout<< "y % z is:"<< y%z << endl;
+  }
+  else{
+      cout<< "NOT descending"<<endl;
+      cout<< "y % z is:"<< y%z << endl;
+  }
+return 0;
+}
